@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.306",
+    "versionCode": 307,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.306.apk",
+    "sha256": "fbcf1c684fbe783edbedf7a201addce6c5284b6d99bbed18e1d7122ff3ebafce",
+    "notes": "查看会话后清除对应的完成通知，保留仍需处理的提醒。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-android-0.1.306.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.11/khLink-android-0.1.306.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-android-0.1.306.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-android-0.1.306.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.306.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.126",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.126.tgz",
+    "sha256": "2d06ea649b0f9fe549466c69ae56d932f5912be9817e8c0e47d61530ae5666c5",
+    "notes": "修复长对话补历史时实时同步可能卡住、手机收不到新消息的问题。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-connector-0.2.126.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.11/khLink-connector-0.2.126.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-connector-0.2.126.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.11-dist/khLink-connector-0.2.126.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.126.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.36",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.36_x64-setup.exe",
+    "sha256": "58aa3c16d5ca91744691a724da129d2954d94b5a38bf4af7940495464594d441",
+    "sizeBytes": 27848622,
+    "notes": "内置连接器更新到 0.2.125，改进大型历史详情检索。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.11/khLink-windows-0.1.36-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.36_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
