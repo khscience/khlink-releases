@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.305",
+    "versionCode": 306,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.305.apk",
+    "sha256": "051946b8b5507012c8afe75875054b16b3758a87bf7f91fc9c40bbf1eb9e7679",
+    "notes": "取回较旧的详细过程时支持自动继续查找，离开对话后停止等待。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-android-0.1.305.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.9/khLink-android-0.1.305.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-android-0.1.305.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-android-0.1.305.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.305.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.125",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.125.tgz",
+    "sha256": "310c4913bfab701c048eda0c6157bedcf4937cc6aa47a82d96e7959934aaf0ab",
+    "notes": "大型历史详情支持分段续查，避免每次超时都从头检索。\nCodex 归档目录跨磁盘时提供明确提示。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-connector-0.2.125.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.9/khLink-connector-0.2.125.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-connector-0.2.125.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.9-dist/khLink-connector-0.2.125.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.125.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.36",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.36_x64-setup.exe",
+    "sha256": "58aa3c16d5ca91744691a724da129d2954d94b5a38bf4af7940495464594d441",
+    "sizeBytes": 27848622,
+    "notes": "内置连接器更新到 0.2.125，改进大型历史详情检索。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.9/khLink-windows-0.1.36-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.36_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
