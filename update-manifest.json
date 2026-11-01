@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.303",
+    "versionCode": 304,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.303.apk",
+    "sha256": "04eca4fb58b38e447567c92e37bd005dc49131ade3b34215288d9babe6270469",
+    "notes": "电脑端队列因中断而暂停时，在待发送列表明确显示原因，避免误以为消息已经开始执行。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-android-0.1.303.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.4/khLink-android-0.1.303.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-android-0.1.303.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-android-0.1.303.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.303.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.120",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.120.tgz",
+    "sha256": "3d929162c33e8ef57a040343d7a59b919cc3c123f04b0cad1ce5e2ce5b65af32",
+    "notes": "修复新版 Codex 桌面端运行中“立即引导”可能退回排队的问题。\n输入框重绘导致写入失败时安全重试；已有草稿不会被覆盖。\n桌面队列暂停时提示到电脑处理，无法确认发送时不自动重发。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-connector-0.2.120.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.4/khLink-connector-0.2.120.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-connector-0.2.120.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.4-dist/khLink-connector-0.2.120.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.120.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.31",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.31_x64-setup.exe",
+    "sha256": "65cabfcadbaad37c333100c69bb31243110b0a94e9be1913395c28e16a0bab90",
+    "sizeBytes": 27842256,
+    "notes": "内置运行中消息引导与输入框写入修复后的连接器。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.4/khLink-windows-0.1.31-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.31_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
