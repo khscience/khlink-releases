@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.302",
+    "versionCode": 303,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.302.apk",
+    "sha256": "757a16925a99c36f9e280673fb50d17c0835f846185934a22c98f35a7ba1c3c9",
+    "notes": "调整 Codex 任务设置：只同步实际修改的项目，减少切换计划模式时的无关设置错误。\n配合新版桌面连接器同步模型、推理强度及速度设置。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-android-0.1.302.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.3/khLink-android-0.1.302.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-android-0.1.302.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-android-0.1.302.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.302.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.119",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.119.tgz",
+    "sha256": "e59c129b3dce4945c6469facd17e3e378f58999d48ba5a5325d5c6cbbc53d0b0",
+    "notes": "修复 Codex 计划模式切换时可能把输入框提示文字当作草稿的问题；有未发送草稿时先保护草稿。\n计划模式单独切换时不再额外操作未修改的模型设置。\n适配新版 Codex 桌面端的模型、推理强度和快速模式菜单；需要额外授权的 Ultra 选项仍由用户在电脑端确认。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-connector-0.2.119.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.3/khLink-connector-0.2.119.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-connector-0.2.119.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.3-dist/khLink-connector-0.2.119.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.119.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.30",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.30_x64-setup.exe",
+    "sha256": "d2811983d6e64d7e1af792455ce30b7a895e3adcf9c4915a1f74ff83b4482e1a",
+    "sizeBytes": 27845667,
+    "notes": "内置计划模式与设置同步修复后的连接器。\n适配新版 Codex 桌面端的模型、推理强度和快速模式菜单。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.3/khLink-windows-0.1.30-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.30_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
