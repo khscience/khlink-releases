@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.304",
+    "versionCode": 305,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.304.apk",
+    "sha256": "034567e02667d2b3278a2d1aad8d83d98ea25b923370c9297438612ac1db12b1",
+    "notes": "优化上传附件的显示，减少临时路径干扰，并在排队消息中保留附件名称。\n修复轻量模式取回较大图片时可能出现的连接中断。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-android-0.1.304.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.7/khLink-android-0.1.304.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-android-0.1.304.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-android-0.1.304.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.304.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.123",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.123.tgz",
+    "sha256": "0a9987eee147b11abbe41cfcc3efc6c41c941c0d727f813d7efae47e6ce826ae",
+    "notes": "新版手机上传附件时使用编号，减少传送电脑临时路径；继续兼容旧版手机。\n详细过程分片传输，避免较大图片造成连接中断。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-connector-0.2.123.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.7/khLink-connector-0.2.123.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-connector-0.2.123.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.7-dist/khLink-connector-0.2.123.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.123.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.34",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.34_x64-setup.exe",
+    "sha256": "e733c959719ee6c13c2eef73b0c738a6636306dc3beea27c4b1fe50947abf051",
+    "sizeBytes": 27848902,
+    "notes": "内置连接器更新到 0.2.123，优化附件上传兼容与路径展示。\n取回较大的图片详情时使用分片传输。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.7/khLink-windows-0.1.34-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.34_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
