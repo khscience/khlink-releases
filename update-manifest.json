@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.300",
+    "versionCode": 301,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.300.apk",
+    "sha256": "7bd124cef4a1635bebb09fc8b0a3f188db35276c69188f06b1edfbb35c8ad081",
+    "notes": "新增 Codex 风格主题：浅色工作区、蓝色消息、可展开的执行过程和紧凑输入区，可在设置中切换。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-android-0.1.300.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.01.3/khLink-android-0.1.300.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-android-0.1.300.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-android-0.1.300.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.300.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.114",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.114.tgz",
+    "sha256": "870b836bc1c7ba224698baf14bf78193a68b5abf89298055f76678f2ed745408",
+    "notes": "修复 Codex 对话记录通过不同路径访问时，任务结束状态可能漏同步的问题。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-connector-0.2.114.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.01.3/khLink-connector-0.2.114.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-connector-0.2.114.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.01.3-dist/khLink-connector-0.2.114.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.114.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.27",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.27_x64-setup.exe",
+    "sha256": "5512a8b6b483d5aff07638052f085b0c51bf3d7d71f2137261309b3dd22e31c5",
+    "sizeBytes": 27827509,
+    "notes": "修复桌面端更新分发：优先使用公开的 GitHub 下载渠道，连接器更新增加 jsDelivr 备用。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.01.2/khLink-windows-0.1.27-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.27_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
