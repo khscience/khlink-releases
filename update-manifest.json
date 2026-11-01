@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.304",
+    "versionCode": 305,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.304.apk",
+    "sha256": "034567e02667d2b3278a2d1aad8d83d98ea25b923370c9297438612ac1db12b1",
+    "notes": "优化上传附件的显示，减少临时路径干扰，并在排队消息中保留附件名称。\n修复轻量模式取回较大图片时可能出现的连接中断。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-android-0.1.304.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.8/khLink-android-0.1.304.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-android-0.1.304.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-android-0.1.304.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.304.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.124",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.124.tgz",
+    "sha256": "293cbf55e399d34ff5cb61d56e03a167911c8890ee841181fdb8d9de661a91ed",
+    "notes": "修复不同会话的历史详情文件名相同时，可能取错详情的问题。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-connector-0.2.124.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.8/khLink-connector-0.2.124.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-connector-0.2.124.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.8-dist/khLink-connector-0.2.124.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.124.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.35",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.35_x64-setup.exe",
+    "sha256": "b97dbcece33b7dc77045b159cb524d8b3c5b4fe53d856655e1bbe7747bb514d0",
+    "sizeBytes": 27850143,
+    "notes": "内置连接器更新到 0.2.124，修复历史详情的会话归属判断。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.8/khLink-windows-0.1.35-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.35_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
