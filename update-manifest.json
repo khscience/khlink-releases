@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.301",
+    "versionCode": 302,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.301.apk",
+    "sha256": "44bf9a31bc2e960be207f2208633468571bdc08d7e70597de5868d1d39fa9dd0",
+    "notes": "修正 Agent 默认显示说明；手机无网络时不再把缓存的电脑状态显示为在线。\n账号登录因会员或权限受限时显示对应原因，避免误提示二维码过期。\n当前打开的 Codex 对话等待电脑端批准时，显示提示并提醒处理。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-android-0.1.301.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02/khLink-android-0.1.301.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-android-0.1.301.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-android-0.1.301.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.301.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.117",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.117.tgz",
+    "sha256": "444ede4b694a21e485051f5e90e3e1187a06018728a1a3db0117f214d5dcdcf7",
+    "notes": "轻量模式的详情保存和读取改为异步，降低大量历史操作导致连接与状态响应变慢的情况；大文件查找超时会明确提示。\n电脑文件真实路径无法确认时拒绝读取，避免别名绕过敏感文件保护。\n电脑端未找到可停止任务时，手机显示中文原因和检查提示。\n电脑上当前打开的 Codex 对话需要批准时，手机提示到电脑处理。\n启动时分批扫描历史，减少历史记录较多时对连接响应的影响。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-connector-0.2.117.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02/khLink-connector-0.2.117.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-connector-0.2.117.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02-dist/khLink-connector-0.2.117.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.117.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.28",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.28_x64-setup.exe",
+    "sha256": "ede58cfaf07c173c3e90073c85bda9ed0b2d86e9b8f58a866267d8f8c5f5cc81",
+    "sizeBytes": 27842849,
+    "notes": "修复桌面安装包下载被链接限制拦截的问题；公开线路失败时自动尝试服务器兜底，下载后校验并保存到下载文件夹。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02/khLink-windows-0.1.28-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.28_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
