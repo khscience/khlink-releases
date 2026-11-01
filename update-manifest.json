@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.303",
+    "versionCode": 304,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.303.apk",
+    "sha256": "04eca4fb58b38e447567c92e37bd005dc49131ade3b34215288d9babe6270469",
+    "notes": "电脑端队列因中断而暂停时，在待发送列表明确显示原因，避免误以为消息已经开始执行。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-android-0.1.303.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.5/khLink-android-0.1.303.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-android-0.1.303.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-android-0.1.303.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.303.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.121",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.121.tgz",
+    "sha256": "a563bfe5afa255a4b9381d1b03a0ee0d741e69f5cc575405e2fa2759c5e7346f",
+    "notes": "修复 Codex 选项卡与聊天输入框同时存在时，可能把回复写入错误输入框的问题。\n无法唯一确认目标输入框时保留草稿，不自动发送。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-connector-0.2.121.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.5/khLink-connector-0.2.121.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-connector-0.2.121.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.5-dist/khLink-connector-0.2.121.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.121.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.32",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.32_x64-setup.exe",
+    "sha256": "7cd75f9da01ba9077e51bf3007f6c2bfe86a6ccdc8ca59ceb99de8ff7b8eb78d",
+    "sizeBytes": 27848565,
+    "notes": "内置 Codex 对话输入框识别修复后的连接器。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.5/khLink-windows-0.1.32-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.32_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
