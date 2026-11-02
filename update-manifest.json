@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.309",
+    "versionCode": 310,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk",
+    "sha256": "9b396c8bc10467f94cf2c200ac0520f4ee8d4125a2e84d18b93c11a2fd03f992",
+    "notes": "修复聊天主题在输入文字后无法继续添加图片或文件的问题。\nHermes 运行中携带图片时，请使用排队发送；选择立即发送会保留输入内容并提示。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03/khLink-android-0.1.309.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.130",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.130.tgz",
+    "sha256": "dc578364ec259ca768f4595f5b8b6ab4f6e2cb9fc0e83e5fe39e729249ca8ba8",
+    "notes": "修复 Pi 运行中发送纯图片后，图片已送达仍提示发送结果未确认的问题。\n修复 DSH 图片实际送达后仍显示待发送的问题，并在可用时恢复手机中的图片预览。\n保留 Pi 待发送图片的附件信息，避免立即发送与排队混淆。\n图片损坏、丢失或超过 5 MB 时明确提示，避免只发送文字。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.3-dist/khLink-connector-0.2.130.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03.3/khLink-connector-0.2.130.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.3-dist/khLink-connector-0.2.130.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.3-dist/khLink-connector-0.2.130.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.130.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.38",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe",
+    "sha256": "65dbe2256658ce8cfb319ed59c7472f435074554824ba4a21eae6682e590d3dc",
+    "sizeBytes": 27862950,
+    "notes": "修复手机连接中的设备列表定时刷新时反复闪动的问题。\n设备上下线时只更新变化的设备，保留其他设备行和操作按钮。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03.3/khLink-windows-0.1.38-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
