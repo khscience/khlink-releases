@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.308",
+    "versionCode": 309,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.308.apk",
+    "sha256": "950c2c53d29deadf67c7dd850029abaf127a693ee1e35a6610ef9da2c687f0ce",
+    "notes": "修复旧任务状态待确认后，新一轮任务可能沿用旧计时的问题。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-android-0.1.308.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.15/khLink-android-0.1.308.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-android-0.1.308.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-android-0.1.308.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.308.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.128",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.128.tgz",
+    "sha256": "f0e93a80f8d2ecbfc95e01e09619192e132e68785c58e1edf30e11958c13eadf",
+    "notes": "修复 Codex 电脑对话空闲时手机消息可能长时间停在队列里的问题。\n修复运行中回答选项时输入框误判和多行回答无法确认的问题。\n支持在手机回答电脑持有的单项选择和自填问题，复杂问题仍提示在电脑处理。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-connector-0.2.128.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.15/khLink-connector-0.2.128.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-connector-0.2.128.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.02.15-dist/khLink-connector-0.2.128.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.128.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.37",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.37_x64-setup.exe",
+    "sha256": "b26cd1f5d7de6e6bc7b37e3fae444da3068b9cf55bc903d31b8f6c82f1dacef2",
+    "sizeBytes": 27849314,
+    "notes": "桌面端增加手动检查更新，恢复窗口后及时刷新版本信息；内置连接器修复长对话新消息同步卡住的问题。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.12/khLink-windows-0.1.37-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.37_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
