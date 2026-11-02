@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.309",
+    "versionCode": 310,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk",
+    "sha256": "9b396c8bc10467f94cf2c200ac0520f4ee8d4125a2e84d18b93c11a2fd03f992",
+    "notes": "修复聊天主题在输入文字后无法继续添加图片或文件的问题。\nHermes 运行中携带图片时，请使用排队发送；选择立即发送会保留输入内容并提示。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03/khLink-android-0.1.309.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.129",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.129.tgz",
+    "sha256": "0e0cef1f588e66f5c36233dcc0e72d9eb30a8a43deae9d5a7bd869bad0f05a7f",
+    "notes": "修复 Hermes 运行中排队发送时可能丢失图片的问题。\n修复未安装 Codex 时其他 Agent 的文件上传可能失败的问题。\nHermes 图片的处理时间和识别结果取决于该会话的模型及其图片能力。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-connector-0.2.129.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03/khLink-connector-0.2.129.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-connector-0.2.129.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-connector-0.2.129.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.129.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.37",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.37_x64-setup.exe",
+    "sha256": "b26cd1f5d7de6e6bc7b37e3fae444da3068b9cf55bc903d31b8f6c82f1dacef2",
+    "sizeBytes": 27849314,
+    "notes": "桌面端增加手动检查更新，恢复窗口后及时刷新版本信息；内置连接器修复长对话新消息同步卡住的问题。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.02.12/khLink-windows-0.1.37-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.37_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
