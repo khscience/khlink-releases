@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.309",
+    "versionCode": 310,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk",
+    "sha256": "9b396c8bc10467f94cf2c200ac0520f4ee8d4125a2e84d18b93c11a2fd03f992",
+    "notes": "修复聊天主题在输入文字后无法继续添加图片或文件的问题。\nHermes 运行中携带图片时，请使用排队发送；选择立即发送会保留输入内容并提示。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03/khLink-android-0.1.309.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03-dist/khLink-android-0.1.309.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.309.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.131",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.131.tgz",
+    "sha256": "f46cb34daa2d695d7153b070488b99eeb64933db0e45c4ddb1cad2ff2fae8d78",
+    "notes": "修复 Hermes 自动重置后，原会话中看不到后续回复的问题。\n依据 Hermes 自身保存的续写关系同步历史，保留独立会话与分支。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.4-dist/khLink-connector-0.2.131.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03.4/khLink-connector-0.2.131.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.4-dist/khLink-connector-0.2.131.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.03.4-dist/khLink-connector-0.2.131.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.131.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.38",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe",
+    "sha256": "65dbe2256658ce8cfb319ed59c7472f435074554824ba4a21eae6682e590d3dc",
+    "sizeBytes": 27862950,
+    "notes": "修复手机连接中的设备列表定时刷新时反复闪动的问题。\n设备上下线时只更新变化的设备，保留其他设备行和操作按钮。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.03.4/khLink-windows-0.1.38-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
