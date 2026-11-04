@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.312",
+    "versionCode": 313,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.312.apk",
+    "sha256": "c546d94f2a27b8e082bdcbdb9414a490c7b84da559b0c22e99937abc0e5913c3",
+    "notes": "重要：这一版换了新的安装包签名，旧版不能直接升级，请先卸载旧版再安装；重新登录后对话记录会从电脑同步回来。\n打开对话时立即显示已有内容；最近有动静的对话会在后台提前同步，点开就是最新的。\n新安装后第一次登录更快，不再先回放好几天的旧事件。\n会员不可用时提供“去开通会员”入口，“会员与续费”改为打开 khLink 会员中心。\nDeepSeek Harness 会话可以在设置里切换权限模式。\n用户协议和隐私政策更新到 v4（补充联系邮箱、会员与退款、权限用途和注销说明），首次打开需要重新确认。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-android-0.1.312.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.04/khLink-android-0.1.312.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-android-0.1.312.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-android-0.1.312.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.312.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.136",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.136.tgz",
+    "sha256": "f8584d8db4278d3bb8c128e2b2a0c4cfd71f07561e239392050498e273acae17",
+    "notes": "修复 Claude 发送：会话切换没生效时先核对会话再发送，兼容侧栏带未读等状态的会话名，控制组件缺失时不再误报“结果不确定”。\nClaude 运行中途插进去的消息，现在显示在 Claude 实际收到它的位置，不再一直挂在对话最下方。\nDeepSeek Harness 支持在手机上切换权限模式；电脑端等待审批和等待回答的状态会同步到手机。\n登录失效后不再频繁刷新登录，避免被服务器限流、连桌面端重新登录都失败。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-connector-0.2.136.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.04/khLink-connector-0.2.136.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-connector-0.2.136.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.04-dist/khLink-connector-0.2.136.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.136.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.38",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe",
+    "sha256": "65dbe2256658ce8cfb319ed59c7472f435074554824ba4a21eae6682e590d3dc",
+    "sizeBytes": 27862950,
+    "notes": "修复手机连接中的设备列表定时刷新时反复闪动的问题。\n设备上下线时只更新变化的设备，保留其他设备行和操作按钮。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.04/khLink-windows-0.1.38-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.38_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
