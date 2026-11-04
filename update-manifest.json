@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.313",
+    "versionCode": 314,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.313.apk",
+    "sha256": "a8a991ea2bc6b8f3383a752e4a104c7435ca3504467b94e46e20821621e030ce",
+    "notes": "新装后第一次登录会有新手引导：选主题、Claude 远程控制和首页显示的智能体、提醒与后台运行、轻量模式，每一步都可以跳过。\n选主题时点“看看实际效果”，直接用真实的列表页和对话页试用，底部可以随时切换主题。\n主题顺序调整为 默认、Codex、极简、聊天软件；极简主题改为平铺列表和文档式对话，和默认主题明显不同。\n新装时不再一打开就弹通知权限，改在引导里说明用途后再开启。\n扫码页改为竖屏，直连二维码更容易扫。\n二维码直连扫过一次后会记住电脑：同一个 Wi-Fi 里 App 重开、电脑重启都会自动连回；用流量或在别的网络时，经 Cloudflare 临时通道跨网络直连（需要电脑端连接器 0.2.137）。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-android-0.1.313.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05/khLink-android-0.1.313.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-android-0.1.313.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-android-0.1.313.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.313.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.137",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.137.tgz",
+    "sha256": "c6bc1c29e6939fa206566c251f84d0a2fb694d7cadf189766d854f54eed23536",
+    "notes": "二维码直连扫过一次后，手机会记住这台电脑：在同一个 Wi-Fi 或热点里，App 重开、电脑或连接器重启、手机切到后台再回来，都会自动连回，不用再扫码。\n支持跨网络直连：手机用流量或在别的 Wi-Fi 时，经 Cloudflare 临时通道连到电脑，不需要 khLink 账号和服务器，内容端到端加密。\n直连二维码的格子少了一半多，手机更容易扫。\n直连不再访问任何公共 STUN 服务器，电脑和手机的公网地址不会被第三方获取。\n修复直连历史文件写坏后，手机一直同步不到任务的问题；文件损坏时会自动重建。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-connector-0.2.137.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05/khLink-connector-0.2.137.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-connector-0.2.137.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05-dist/khLink-connector-0.2.137.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.137.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.41",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.41_x64-setup.exe",
+    "sha256": "e34dcd93f7be02781ab535ba9bb76d80d8b5aeedcf4e3a7f1fff3fdb66efbb2d",
+    "sizeBytes": 42893637,
+    "notes": "二维码直连：扫过一次后，同一个 Wi-Fi 里手机 App 重开、电脑或连接器重启都会自动连回；勾选“不在同一 Wi-Fi”时经 Cloudflare 临时通道跨网络直连（安装包已内置 cloudflared），不再访问公共 STUN 服务器。\n更换了更新签名密钥：旧版桌面端收不到这一版的自动更新，请从官网下载安装包手动安装一次，之后恢复自动更新。\n修复在干净的 Windows 上桌面端打不开（缺少 VCRUNTIME140.dll）的问题。\n修复没有 VBScript 的 Windows 上后台连接器无法启动的问题。\n账户、设备和诊断页面容错更好；更新失败时会回滚到原来的版本；可以在设备列表里解绑设备。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05/khLink-windows-0.1.41-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.41_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
