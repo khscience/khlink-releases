@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.315",
+    "versionCode": 316,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.315.apk",
+    "sha256": "db4d90093b6643a84f57fb985aade3abefc598cfd977e9b0b97f3a42f4d28b49",
+    "notes": "直连一直连不上时（自动重连连续失败约 1 分钟），会弹窗建议改用 khLink 账号登录，经官方服务器连回电脑：保存过账户会话的直接恢复，没有的打开登录授权页；选“继续等待直连”则后台继续重试，这一轮不再提示。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-android-0.1.315.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.3/khLink-android-0.1.315.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-android-0.1.315.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-android-0.1.315.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.315.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.138",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.138.tgz",
+    "sha256": "33e63cf0b5c8f4a4d4baba1b2299263e250913776b5131f9e1fc39e373472b3f",
+    "notes": "修复手机上像是自动多发了一条消息的问题：Claude 桌面端自己的事件（分出去的会话结束、别的会话发来消息、定时任务）不再显示成你发的消息。旧对话打开时会自动修正。\n修复对话里的任务清单总停在第一步的问题：一轮结束时整张清单勾完，和电脑上一致。\n跨网络直连的临时通道在连接器重启或更新后保持不变，手机不用重新扫码（电脑重启后仍需重新扫码）。\n电脑已登录账户时，直连期间账户连接在后台待命：只保持在线，不同步内容、不产生流量。直连连不上时，手机改用账号登录即可经服务器连回，断档期间的记录会自动补上。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-connector-0.2.138.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.3/khLink-connector-0.2.138.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-connector-0.2.138.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.3-dist/khLink-connector-0.2.138.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.138.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.42",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe",
+    "sha256": "625e4ed4960acc37763cb4f33a37bc40f7cf90cf7fc23ab750d14990cf0921a2",
+    "sizeBytes": 42904491,
+    "notes": "内置连接器 0.2.138：手机上不再出现多发的消息，任务清单在一轮结束时勾完；连接器重启后跨网络直连不用重新扫码；电脑已登录账户时，直连期间账户连接在后台待命，直连连不上可以改用账号登录。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.3/khLink-windows-0.1.42-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
