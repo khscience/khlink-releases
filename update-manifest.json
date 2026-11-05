@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.329",
+    "versionCode": 330,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.329.apk",
+    "sha256": "2b03f9b4e4d7b131482ae99447c7cd7b60c6b4c76d1695935e1ea408640c9a4f",
+    "notes": "协议和隐私政策更新到 v6（2026-11-06 生效），打开 App 时需要重新确认：补充了跨网络直连经过 Cloudflare、安装从电脑取回的安装包、手机上回答和批准时会操作电脑上的桌面应用、第三方智能体账号被封的责任说明等。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06/khLink-android-0.1.329.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.329.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.146",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.146.tgz",
+    "sha256": "630d1ed35eae664a53f695adbb1aea782ab093fba9090c4b81169a52641e4a5e",
+    "notes": "Claude 定时任务建的对话里，在手机上点“允许并切到自动模式”不再报“电脑端没有找到对应的按钮”：这类对话的批准框没有这个选项，现在会先允许这一次，再把会话切到自动模式。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.2-dist/khLink-connector-0.2.146.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.2/khLink-connector-0.2.146.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.2-dist/khLink-connector-0.2.146.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.2-dist/khLink-connector-0.2.146.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.146.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.42",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe",
+    "sha256": "625e4ed4960acc37763cb4f33a37bc40f7cf90cf7fc23ab750d14990cf0921a2",
+    "sizeBytes": 42904491,
+    "notes": "内置连接器 0.2.138：手机上不再出现多发的消息，任务清单在一轮结束时勾完；连接器重启后跨网络直连不用重新扫码；电脑已登录账户时，直连期间账户连接在后台待命，直连连不上可以改用账号登录。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.13/khLink-windows-0.1.42-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
