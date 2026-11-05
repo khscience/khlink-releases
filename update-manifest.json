@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.325",
+    "versionCode": 326,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.325.apk",
+    "sha256": "4c6ff06e18763c08c199467e850cf6869e55c307ae5241c6a54429a6f1593207",
+    "notes": "DeepSeek（DSH）的权限审批现在可以在手机上处理：会话里会显示要执行的工具和原因，点“允许一次”或“拒绝”就会同步到电脑上的 DSH 桌面端。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-android-0.1.325.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.10/khLink-android-0.1.325.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-android-0.1.325.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-android-0.1.325.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.325.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.143",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.143.tgz",
+    "sha256": "3ad81dca43409957a0a6dfb3c91a0b78028c6c1f3d61da64f9efe6c0cb60321b",
+    "notes": "DSH 的权限审批会把工具名和原因发给手机，手机可以直接允许或拒绝；旧版本连接器留下的等待记录会自动按新格式重新同步一次。DSH 桌面端左侧列表里找不到会话时，会用中文说明需要在电脑上处理。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-connector-0.2.143.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.10/khLink-connector-0.2.143.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-connector-0.2.143.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.10-dist/khLink-connector-0.2.143.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.143.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.42",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe",
+    "sha256": "625e4ed4960acc37763cb4f33a37bc40f7cf90cf7fc23ab750d14990cf0921a2",
+    "sizeBytes": 42904491,
+    "notes": "内置连接器 0.2.138：手机上不再出现多发的消息，任务清单在一轮结束时勾完；连接器重启后跨网络直连不用重新扫码；电脑已登录账户时，直连期间账户连接在后台待命，直连连不上可以改用账号登录。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.10/khLink-windows-0.1.42-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
