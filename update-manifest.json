@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.320",
+    "versionCode": 321,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.320.apk",
+    "sha256": "0ed62241c91c607c7e91080adaa69a2bdf231cf8439c94c875fa993c08141860",
+    "notes": "切换模型、思考强度和权限的设置面板重新设计：改为从底部弹出，四个主题各有自己的样式。\n默认主题：暖色卡片。\nCodex 主题：紧凑面板。\n极简主题：黑白细线。\n聊天软件主题：白色分组和绿色对勾。\n选项太多时自动换行，不会被挡住；高风险的权限会标出来；顶部显示当前设置。\n切换模型、强度或权限时会显示\"切换中…\"，切换成功或失败都会提示。\nClaude 回复里的会话链接，点一下就能打开那个对话。\nClaude 桌面端因为 Opus 安全机制停下、让你选\"自动切换 / 停在 Opus 5.5\"时，手机上能看到这两个选项，可以直接选。\n在电脑上把模式改成 Auto 等设置后，手机会跟着更新；DSH 一次问多个问题时，在手机上也能逐题回答。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-android-0.1.320.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.5/khLink-android-0.1.320.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-android-0.1.320.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-android-0.1.320.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.320.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.139",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.139.tgz",
+    "sha256": "c086cdfbffaac2f4534ce8f23282fad9ba1f34434adb393324926cac2d374134",
+    "notes": "修复 Claude 对话在电脑上已经结束、手机上却一直显示\"运行中\"：连接器正好在对话结束时重启，状态就会卡住。这种情况现在会自动纠正。另外，一个对话长时间没有动静时，也会通知手机它已经不在运行。\nOpus 安全机制让你在\"自动切换 / 停在 Opus 5.5\"之间选择时，这个提示不会写进对话记录。现在连接器会直接从电脑窗口上读出选项，手机上就能回答。\n修复 DSH 对话反复上传、白白消耗流量的问题：没有变化的对话不再重复上传。\nDSH 一次问多个问题时，手机上的回答会逐页填进电脑端；\"允许并切换到 Auto\"更稳定，电脑上改了模式或模型也会同步到手机。\n从直连切回账户连接、补传历史后，手机列表会马上刷新。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-connector-0.2.139.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.5/khLink-connector-0.2.139.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-connector-0.2.139.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.05.5-dist/khLink-connector-0.2.139.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.139.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.42",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe",
+    "sha256": "625e4ed4960acc37763cb4f33a37bc40f7cf90cf7fc23ab750d14990cf0921a2",
+    "sizeBytes": 42904491,
+    "notes": "内置连接器 0.2.138：手机上不再出现多发的消息，任务清单在一轮结束时勾完；连接器重启后跨网络直连不用重新扫码；电脑已登录账户时，直连期间账户连接在后台待命，直连连不上可以改用账号登录。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.05.5/khLink-windows-0.1.42-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.42_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
