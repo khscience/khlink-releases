@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.330",
+    "versionCode": 331,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.330.apk",
+    "sha256": "3f32722bbd89764759ef86f5d2f033fe65cbe4f64624f70c100aec4b82d6449d",
+    "notes": "新手引导选主题时，下面会直接显示一段示例对话，点哪个主题就能看到效果；“看看实际效果”里也有示例，不再弹出后台运行的提示。电脑上没装的智能体，首页会提示“这台电脑还没有安装 Codex”，不再显示空列表和“周额度 暂不可用”（需要电脑连接器 0.2.148）。流量重置日期按北京时间显示为每月 1 日。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.9-dist/khLink-android-0.1.330.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.9/khLink-android-0.1.330.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.9-dist/khLink-android-0.1.330.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.9-dist/khLink-android-0.1.330.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.330.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.148",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.148.tgz",
+    "sha256": "17de4746cf1105fe8f57d075632da5fec9a02cbbf484622c747dad9641eb0b8a",
+    "notes": "会报告电脑上装了哪些智能体，手机据此提示还没安装的智能体。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.8/khLink-connector-0.2.148.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.148.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.46",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.46_x64-setup.exe",
+    "sha256": "0c9121a555e910214165127ce15e5c0fcbfb5cda3046a0c46a1bca3e27fefc40",
+    "sizeBytes": 42914362,
+    "notes": "新账号显示“khQuant VIP 未开通”（之前误显示为“已到期”）；免费用户的徽标改为“免费额度”。内置连接器 0.2.148。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.10/khLink-windows-0.1.46-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.46_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
