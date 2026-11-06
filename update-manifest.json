@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.329",
+    "versionCode": 330,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.329.apk",
+    "sha256": "2b03f9b4e4d7b131482ae99447c7cd7b60c6b4c76d1695935e1ea408640c9a4f",
+    "notes": "协议和隐私政策更新到 v6（2026-11-06 生效），打开 App 时需要重新确认：补充了跨网络直连经过 Cloudflare、安装从电脑取回的安装包、手机上回答和批准时会操作电脑上的桌面应用、第三方智能体账号被封的责任说明等。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06/khLink-android-0.1.329.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06-dist/khLink-android-0.1.329.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.329.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.148",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.148.tgz",
+    "sha256": "17de4746cf1105fe8f57d075632da5fec9a02cbbf484622c747dad9641eb0b8a",
+    "notes": "会报告电脑上装了哪些智能体，手机据此提示还没安装的智能体。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.8/khLink-connector-0.2.148.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.06.8-dist/khLink-connector-0.2.148.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.148.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.45",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.45_x64-setup.exe",
+    "sha256": "311f531b5e91094b62fc5793e17f7399f6d822d3093b54b7238a45829a674129",
+    "sizeBytes": 42906283,
+    "notes": "同一台电脑退出后换另一个账号登录，不再报 Internal server error (500)：这台电脑会从原来的账号移到新账号，并为新账号生成新的加密密钥。授权页上可以点“换个账号”。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.06.7/khLink-windows-0.1.45-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.45_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
