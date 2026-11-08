@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.332",
+    "versionCode": 333,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.332.apk",
+    "sha256": "6540d4a48b2471e2fd40d8db153590a9c480336ae4dc6df2ab0d09e265ac5253",
+    "notes": "换电脑后手机不再一直显示“正在连接电脑”：账号换到一台新电脑后，手机会自动拿到新电脑的密钥并连上，不用退出重新登录。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.2-dist/khLink-android-0.1.332.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.2/khLink-android-0.1.332.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.2-dist/khLink-android-0.1.332.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.2-dist/khLink-android-0.1.332.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.332.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.152",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.152.tgz",
+    "sha256": "999b1e2ef137cce63a1478d1c99e2b98394f39e02baaa8b9dbd7fd6c40a79e6f",
+    "notes": "修复轻量模式详情文件不断膨胀的问题：之前每次连接器重启，已保存的命令输出和截图都会重复写一遍，有用户的电脑上这个目录涨到了 24 GB。现在不再重复写入，升级后连接器会在后台自动压缩已有的文件（只保留每条记录的最新一份），通常能腾出大量 C 盘空间。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08-dist/khLink-connector-0.2.152.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08/khLink-connector-0.2.152.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08-dist/khLink-connector-0.2.152.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08-dist/khLink-connector-0.2.152.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.152.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.48",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.48_x64-setup.exe",
+    "sha256": "0db7d102c256bdcad1da273f41662f7edffe8318ceca21d42ff49d78bfcd8577",
+    "sizeBytes": 42915222,
+    "notes": "换电脑后不再卡住：新电脑登录一个已有电脑的账号时，会写明正在等哪台电脑交出账户密钥；那台电脑已经不用了（重装、换机）时，在“账户设备”里解除它的绑定，这台电脑会自动接管。内置连接器 0.2.152。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.3/khLink-windows-0.1.48-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.48_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
