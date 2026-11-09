@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.336",
+    "versionCode": 337,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.336.apk",
+    "sha256": "8f6359389ae4fc9a9b3d20b10a0bb897a74a22cd6d94a7ca396b2beffb2c06e3",
+    "notes": "从电脑取回视频和其他文件时，离开对话后继续后台取回，返回后可查看原有进度。\n根据连接速度调整分片并发，减少高速链路等待，并保留慢速连接的保护。\nCodex 对话列表不再显示账号切换按钮，电脑端切换账号后的手机状态同步保留。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.2-dist/khLink-android-0.1.336.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.09.2/khLink-android-0.1.336.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.2-dist/khLink-android-0.1.336.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.2-dist/khLink-android-0.1.336.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.336.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.155",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.155.tgz",
+    "sha256": "6966b143766ca0303454b2ae2693f72ead85f429a52a5fa2a9e6daf77c31dafa",
+    "notes": "按需读取各智能体已有的对话 Token 记录，支持手机按今天、本月和全部查看占比；缺失的数据会明确标注。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.6-dist/khLink-connector-0.2.155.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-connector-0.2.155.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.6-dist/khLink-connector-0.2.155.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.08.6-dist/khLink-connector-0.2.155.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.155.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.51",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe",
+    "sha256": "e39f64ea490773990fc922431cf0bdc7c48cdbd1b378683403fad52fa1b5cfb8",
+    "sizeBytes": 41200584,
+    "notes": "账户卡片不再显示其他产品的会员状态，原有账户授权保持不变。\n内置连接器更新至 0.2.155，支持手机查询各对话的 Token 用量占比。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-windows-0.1.51-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
