@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.337",
+    "versionCode": 338,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.337.apk",
+    "sha256": "ebdeee27b5cbc60b21037385f39262938e11e275de12f23cb0f9648d9c0527a7",
+    "notes": "Codex 对话空闲时，等待电脑确认的消息留在聊天中显示“发送中”。\n运行中主动排队的消息和需要确认的发送异常仍保留原有操作入口。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.3-dist/khLink-android-0.1.337.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.09.3/khLink-android-0.1.337.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.3-dist/khLink-android-0.1.337.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.3-dist/khLink-android-0.1.337.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.337.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.156",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.156.tgz",
+    "sha256": "2687cd3b95f8884c2008aa9118ebf228280d4617220afedc037a73bb8d1b7114",
+    "notes": "修复 Codex 运行中回答选项时，电脑输入区变窄导致发送控件找不到的问题。\n发送前检查控件属于当前输入区，保留未确认时的防重复保护。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.4-dist/khLink-connector-0.2.156.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.09.4/khLink-connector-0.2.156.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.4-dist/khLink-connector-0.2.156.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.4-dist/khLink-connector-0.2.156.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.156.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.51",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe",
+    "sha256": "e39f64ea490773990fc922431cf0bdc7c48cdbd1b378683403fad52fa1b5cfb8",
+    "sizeBytes": 41200584,
+    "notes": "账户卡片不再显示其他产品的会员状态，原有账户授权保持不变。\n内置连接器更新至 0.2.155，支持手机查询各对话的 Token 用量占比。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-windows-0.1.51-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
