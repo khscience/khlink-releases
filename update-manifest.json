@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.342",
+    "versionCode": 343,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.342.apk",
+    "sha256": "8731ee36a952c5bc00597e7d6af5eabaacd3d76e6e508129302258fc1969d735",
+    "notes": "修复取回 Codex 生图等大图片时可能长时间卡住或再次打开后无法显示的问题；取回过程中显示传输进度，新任务运行时仍可查看之前生成的图片。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-android-0.1.342.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.09.8/khLink-android-0.1.342.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-android-0.1.342.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-android-0.1.342.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.342.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.159",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.159.tgz",
+    "sha256": "472a197e8d48b3f85ee8b5098ea9c8993f7fef870bfc1c7f3be2c5b99e451167",
+    "notes": "修复 Codex 生成多张图片时部分图片未取回的问题，改善大图片在慢速连接下的分片传输。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-connector-0.2.159.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.09.8/khLink-connector-0.2.159.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-connector-0.2.159.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.09.8-dist/khLink-connector-0.2.159.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.159.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.51",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe",
+    "sha256": "e39f64ea490773990fc922431cf0bdc7c48cdbd1b378683403fad52fa1b5cfb8",
+    "sizeBytes": 41200584,
+    "notes": "账户卡片不再显示其他产品的会员状态，原有账户授权保持不变。\n内置连接器更新至 0.2.155，支持手机查询各对话的 Token 用量占比。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-windows-0.1.51-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
