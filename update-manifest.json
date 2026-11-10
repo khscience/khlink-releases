@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.345",
+    "versionCode": 346,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.345.apk",
+    "sha256": "cb379e11b3ad8535e50e385ec7a7f69a2fce30760d330dd2f65c3e88a4f137af",
+    "notes": "Markdown 文档新增阅读主题，可选择跟随应用、素白、暖纸或夜间。\n文档中的电脑图片和网页图片可直接显示；支持放大查看，并保留已取回图片的电脑来源。\n优化文档标题、正文、表格和代码区域的阅读排版。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.3-dist/khLink-android-0.1.345.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.10.3/khLink-android-0.1.345.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.3-dist/khLink-android-0.1.345.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.3-dist/khLink-android-0.1.345.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.345.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.161",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.161.tgz",
+    "sha256": "f2989cfe2d62a05cae970aa104eee7d484ee1d338df2c0ed9e14ea83dbd4adc2",
+    "notes": "增加 Windows 电脑屏幕唤醒控制和会话锁屏状态同步，不修改系统电源计划。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.2-dist/khLink-connector-0.2.161.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.10.2/khLink-connector-0.2.161.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.2-dist/khLink-connector-0.2.161.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.10.2-dist/khLink-connector-0.2.161.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.161.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.51",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe",
+    "sha256": "e39f64ea490773990fc922431cf0bdc7c48cdbd1b378683403fad52fa1b5cfb8",
+    "sizeBytes": 41200584,
+    "notes": "账户卡片不再显示其他产品的会员状态，原有账户授权保持不变。\n内置连接器更新至 0.2.155，支持手机查询各对话的 Token 用量占比。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-windows-0.1.51-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
