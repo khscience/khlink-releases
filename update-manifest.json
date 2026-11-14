@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "android": {
+    "versionName": "0.1.349",
+    "versionCode": 350,
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.349.apk",
+    "sha256": "6ac845091f6ac1c879f16d884f9c1bbe53984475d81fe3efa862f9a1f1e5d046",
+    "notes": "反重力对话顶部的模型一栏可以点开了：切换模型、Gemini 思考强度和这个对话的权限模式，在电脑上的反重力里生效（需连接器 0.2.165）。\n选中 Mac 新建任务时，工作目录默认是 Mac 的主目录，只列 Mac 上能用的智能体，Hermes 的提示也不再提 WSL。\n电脑报告没装 Hermes 时，新建任务里不再显示 Hermes。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-android-0.1.349.apk",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.15.3/khLink-android-0.1.349.apk",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-android-0.1.349.apk",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-android-0.1.349.apk",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-codex-0.1.349.apk"
+    ]
+  },
+  "windowsConnector": {
+    "version": "0.2.165",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.165.tgz",
+    "sha256": "2bb3cf41201ab907016914ea69a1bf99f29b543e23be44092899b8f6f56817d8",
+    "notes": "适配反重力 2.32：手机上又能给反重力发消息、停止当前任务了（新版把对话列表藏了起来，之前会提示找不到对话）。\n手机上可以切换反重力的模型、Gemini 的思考强度和这个对话的权限模式（逐条审批 / 默认 / 自动 / 全自动）。\nMac 上的连接器会告诉手机这是一台 Mac，新建任务默认用 Mac 的主目录。",
+    "urls": [
+      "https://gcore.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-connector-0.2.165.tgz",
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.15.3/khLink-connector-0.2.165.tgz",
+      "https://fastly.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-connector-0.2.165.tgz",
+      "https://cdn.jsdelivr.net/gh/khscience/khlink-releases@v2026.11.15.3-dist/khLink-connector-0.2.165.tgz",
+      "https://khsci.vip/fengzhu-bridge/downloads/fengzhu-connect-0.2.165.tgz"
+    ]
+  },
+  "windowsDesktop": {
+    "version": "0.1.51",
+    "url": "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe",
+    "sha256": "e39f64ea490773990fc922431cf0bdc7c48cdbd1b378683403fad52fa1b5cfb8",
+    "sizeBytes": 41200584,
+    "notes": "账户卡片不再显示其他产品的会员状态，原有账户授权保持不变。\n内置连接器更新至 0.2.155，支持手机查询各对话的 Token 用量占比。\n安装桌面一体包会重启后台连接器，请等消息发送和正在执行的任务结束后再安装。",
+    "urls": [
+      "https://github.com/khscience/khlink-releases/releases/download/v2026.11.08.6/khLink-windows-0.1.51-x64-setup.exe",
+      "https://khsci.vip/fengzhu-bridge/downloads/khLink_0.1.51_x64-setup.exe"
+    ]
+  },
+  "minimumProtocolVersion": 1
+}
